@@ -3,7 +3,7 @@ class Site::PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
   
   def index
-    @posts = Post.all.reverse
+    @posts = Post.get_all_posts
   end
 
   def show
