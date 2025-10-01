@@ -1,24 +1,11 @@
-# README
+# Devise Basic Auth 🔒
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project of an simple social media where logged in users can make your own posts.
 
-Things you may want to cover:
+## What I've learned with it? 📖
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Setting up Devise
+- Devise callbacks and helpers
+- Customizing devise views
+- Controllers namespacing organization
+- Using HTML SLIM
