@@ -53,3 +53,5 @@ end
 
 gem "devise", "~> 4.9"
 gem "rails-i18n", "~> 7.0"
+
+gem "slim-rails", "~> 3.7"

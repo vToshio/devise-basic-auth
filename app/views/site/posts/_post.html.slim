@@ -1,0 +1,11 @@
+div id=(dom_id post)
+    h2 = post.title 
+    p = post.content 
+
+
+    div 
+        = link_to "Read post", post
+        - if user_signed_in? 
+            = link_to "Edit", edit_post_path(post)
+            = button_to "Delete", post, method: :delete, data: { turbo_confirm: "Are you sure?" }
+    

@@ -1,0 +1,9 @@
+div 
+    h1 Site::Posts#index
+    p Find me in app/views/site/posts/index.html.slim
+    - if user_signed_in?
+        = link_to "New Post", new_post_path
+
+div 
+    - @posts.each do |post| 
+        = render partial: "post", locals: { post: post }
